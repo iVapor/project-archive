@@ -1,0 +1,14 @@
+<view id="app">
+    <view class="title" style="padding-top:{{statusBarHeight}}px;">我是标题栏</view>
+    <view class="tab" style="top:{{ 40 + statusBarHeight }}px">
+        <view bind:tap="scrollCard" data-type="red">跳转到红色</view>
+        <view bind:tap="scrollCard" data-type="blue">跳转到蓝色</view>
+        <view bind:tap="scrollCard" data-type="yellow">跳转到黄色</view>
+    </view>
+    <view class="white">占位的行</view>
+    <view class="red"></view>
+    <view class="blue"></view>
+
+    <view class="yellow"></view>
+    <view class="grey"></view>
+</view>

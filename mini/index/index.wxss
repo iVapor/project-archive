@@ -1,0 +1,48 @@
+#app {
+    position: relative;
+}
+
+.title {
+    height: 40px;
+    background: rgba(224, 222, 222, 0.44);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.tab {
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(245, 245, 245, 0.28);
+    height: 20px;
+
+}
+.tab view {
+    border: 1px solid black;
+}
+
+.blue {
+    height: 400px;
+    background: blue;
+}
+
+.red {
+    height: 400px;
+    background: red;
+}
+
+.white {
+    height: 400px;
+}
+.yellow {
+    height: 400px;
+    background: yellow;
+}
+
+.grey {
+    height: 600px;
+    background: grey;
+}
